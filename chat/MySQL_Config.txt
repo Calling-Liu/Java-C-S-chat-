@@ -1,0 +1,10 @@
+#Rgisted users of mine table
+my_user( 
+                id char(13),
+	name char(15),
+	sex numeric(1),//0代表男生，1表示女生。
+	password char(16),
+	telephone char(13),
+	status numeric(1),//0表示离线，1表示在线。
+	has_register numeric(1),//1表示已经注册，0表示账号已经注销或被冻结。
+	primary key (id)); 
